@@ -1,0 +1,14 @@
+CREATE TABLE causesdict
+(
+cd_uid SERIAL PRIMARY KEY,
+causedid INT NOT NULL UNIQUE,
+causedname TEXT[] NOT NULL,
+causeddescription TEXT
+);
+CREATE TABLE skillsdict
+(
+sd_uid SERIAL PRIMARY KEY,
+skilldid INT NOT NULL UNIQUE,
+skilldname TEXT[] NOT NULL,
+skillddescription TEXT
+);
