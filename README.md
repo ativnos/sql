@@ -17,3 +17,7 @@ causesandskill
 -------
 
 ```causesandskill``` describes two nearly identical tables for causes and skills. These tables contain all items added to user's profiles. The ```username``` column references a username from the ```userregistry``` table, and the ```causeid``` or ```skillid``` columns reference the ```itemid``` from their respective dictionary table described by ```causeskillindex.sql```. Users select a name from an array defined in the dictionary, and can submit a description for their experience with the specific cause or skill. 
+
+
+###Why the '~'?
+emacs makes them during autosaving of buffers.
