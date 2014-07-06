@@ -7,9 +7,10 @@ passwordhash BYTEA NOT NULL,
 salt BYTEA NOT NULL,
 firstname TEXT,
 lastname TEXT,
-tstamp timestamp without time zone default (now() at time zone 'utc'),
 summary TEXT,
 icareabout TEXT,
 imgoodat TEXT,
-contactme TEXT
+contactme TEXT,
+tstamp timestamp without time zone default (now() at time zone 'utc')
 );
+
